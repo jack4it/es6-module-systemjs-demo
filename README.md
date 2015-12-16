@@ -1,6 +1,8 @@
 What this project is for?
 =========================
 
+This demo accompanies this blog post http://jackma.com/2015/12/16/javascript-modules-and-a-loader-systemjs/
+
 An [ES6 module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [systemjs](https://github.com/systemjs/systemjs)/[builder](https://github.com/systemjs/builder) demo project. In this project, you can find examples of how to write ES6 JavaScript modules, how to load them using systemjs and how to leverage systemjs plugins to load many kinds of resources other than JavaScript, e.g. HTML templates, LESS files, etc.
 
 You can also find examples of how to create a workflow that makes development time much easier and also easily builds/bundles for production.

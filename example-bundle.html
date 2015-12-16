@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>systemjs/builder LESS pulgin example</title>
+
+    <script src="jspm_packages/system.src.js"></script>
+
+    <script>
+        System.config({
+            bundles: {
+                "example/app-bundle.js": ['example/app.js']
+            }
+        });
+        
+        System.import('example/app.js')
+            .then(function (m) {
+                console.log(m.message);
+                document.getElementById("placeholder").innerHTML = m.template;
+            })
+            .catch(function(err) {
+                console.log(err);
+            });
+
+    </script>
+</head>
+
+<body>
+    <div id="placeholder">[To be replaced with template]</div>
+    <div class="blue">I'm blue</div>
+    <div class="green">I'm green</div>
+    <div class="red">I'm red</div>
+</body>
+
+</html>

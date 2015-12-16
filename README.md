@@ -35,7 +35,7 @@ Examples
 
 **example-bundle.js**: An example of how to transpile ES6 modules into ES5 codes, compile LESS into css and bundle all of them together in *node* during build time for production
 
-**example-bundle.html**: An example of how to load the systemjs bundle file. You can see how different the network roundtrips are between the **example.html** file and this file
+**example-bundle.html**: An example of how to load the systemjs bundle file. You can see how different the network roundtrips are between the **example.html** file and this file. Note: Make sure you run ```node example-bundle.js``` before opening this page
 
 License
 =======
